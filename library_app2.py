@@ -42,7 +42,7 @@ def main():
     print("Book catalog has been loaded")
     book_list = load_books(book_list, pathname)
     
-    # user_search = input("Which book are you searching for? ")
+    
     
     MENU_OPT = {
     1: 'Search for books',
@@ -61,7 +61,7 @@ def main():
 } 
     
     menu_heading = "Reader's Guild Library - Main Menu"
-    # print_menu(menu_heading, MENU_OPT)
+    
     
     for key, value in MENU_OPT.items():
             print(f"{key}: {value}")
