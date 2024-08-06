@@ -37,4 +37,4 @@ Each group will submit a video to Brightspace or their GitHub Repository (either
 EACH PERSON CREATES A BRANCH NAMED AFTER THEMSELVES TO CODE AND AFTER FINISHED COMMIT YOUR BRANCH TO THE MAIN BRANCH CHECKING IF THERE IS NO ERRORS OR OVERLAPING. YOU CAN ASSIGN SOMEONE FRO  THE GROUP TO REVIEW YOUR COMMIT BEFORE ACTUALLY COMMITING IT. 
 ***
 Duties (add yours)\
-Maria: test, submission, main function
+Maria: test, submission, main function, demo.py
