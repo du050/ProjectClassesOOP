@@ -56,12 +56,12 @@ def print_menu():
         selection = int(input("Enter your selection: "))
     else:
         return selection
-    
+
 
 def print_librarian_menu():
     print("\nReader's Guild Library - Librarian Menu")
     print("========================================")
- 
+
 
 def search_books(book_list, search_str):
     """"""
@@ -88,6 +88,7 @@ def search_books(book_list, search_str):
             print("No matching books found.")
             return
 
+
 def find_book_by_isbn(book_list, isbn):
     """"""
     index = 0
@@ -97,7 +98,7 @@ def find_book_by_isbn(book_list, isbn):
         index += 1
     else:
         return -1
-    
+
 
 def borrow_book(book_list):
     """"""
@@ -105,7 +106,7 @@ def borrow_book(book_list):
     isbn = input("Enter the 13-digit ISBN (format 999-9999999999): ")
 
     index = find_book_by_isbn(book_list, isbn)
-    
+
     if index != -1:
         current_book = book_list[index]
         if current_book.get_available():
@@ -137,6 +138,7 @@ def return_book(book_list):
             return
     print("No book found with that ISBN.")
 
+
 def main():
     """"""
 
@@ -147,7 +149,7 @@ def main():
     load_books(file_name, book_list)
 
     while True:
-        
+
         selection = print_menu()  # return user's valid selection
 
         match selection:
@@ -164,8 +166,6 @@ def main():
                 break
             case _:
                 print("Invalid input.")
- 
-
 
 
 # call main() function
