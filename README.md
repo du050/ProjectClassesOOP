@@ -1,4 +1,5 @@
-# ProjectClassesOOP
+# ProjectClassesOOP - Maria Eduarda Xavier. Grace Dong, Armaan
+
 Instructions
 ***
 This assignment consists of two parts, both to be completed outside of class time. See the course schedule and Brightspace for exact dates. The rubric is available in Brightspace.
