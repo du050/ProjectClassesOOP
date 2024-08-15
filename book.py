@@ -1,7 +1,7 @@
 
 class Book:
-    # initiate a dictonary as staticclass constant 
-    GENRE_NAME = {
+    # initiate a dictonary as static class constant 
+    GENRE_OPTION = {
         0: "Romance",
         1: "Mystery",
         2: "Science Fiction",
@@ -35,7 +35,7 @@ class Book:
     
     # method get_genre_name()
     def get_genre_name(self):
-        return Book.GENRE_NAME[self.__genre] # map index to genre name
+        return Book.GENRE_OPTION[self.__genre] # map index to genre name
        
     # setters for isbn, title, author and genre
     def set_isbn(self, new_isbn):
